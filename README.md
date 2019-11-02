@@ -1,0 +1,2 @@
+# choicefield_sample
+DjangoのChoiceFieldサンプルコード
