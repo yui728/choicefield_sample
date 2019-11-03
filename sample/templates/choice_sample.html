@@ -5,7 +5,9 @@
     </head>
     <body>
         <form method="POST" aciton="">
-            {{ form.choice1 }}
+            {% for field in form %}
+            {{ field }}
+            {% endfor %}
             {% csrf_token %}
         </form>
     </body>

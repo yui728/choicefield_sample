@@ -13,3 +13,9 @@ class SampleChoiceForm(forms.Form):
         required=True,
         widget=forms.widgets.Select
     )
+
+class SampleChoiceAddForm(forms.Form):
+    choice1 = forms.fields.ChoiceField(
+        required=True,
+        widget=forms.widgets.Select
+    )
